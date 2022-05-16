@@ -35,7 +35,7 @@
         // Credits: Coding Wala
         const handleExtraSpaces = () => {
           let newText = text.split(/[ ]+/);
-          setText(newText.join(" "));
+          setText(newText.join(""));
           props.showAlert(":  Extra spaces removed!", "Success")
       }
 
@@ -64,4 +64,4 @@
       
 
       );
-    }
+    }//
